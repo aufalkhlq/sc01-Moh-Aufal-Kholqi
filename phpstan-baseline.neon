@@ -1,0 +1,541 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Method App\\Domain\\Booking\\DTOs\\TimeRange\:\:toArray\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Domain/Booking/DTOs/TimeRange.php
+
+		-
+			message: '#^Method App\\Domain\\Booking\\Exceptions\\OperatingHoursException\:\:__construct\(\) has parameter \$details with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Domain/Booking/Exceptions/OperatingHoursException.php
+
+		-
+			message: '#^Property App\\Domain\\Booking\\Exceptions\\OperatingHoursException\:\:\$details type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Domain/Booking/Exceptions/OperatingHoursException.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Domain/Booking/Exceptions/ScheduleConflictException.php
+
+		-
+			message: '#^Cannot call method format\(\) on string\.$#'
+			identifier: method.nonObject
+			count: 2
+			path: app/Domain/Booking/Exceptions/ScheduleConflictException.php
+
+		-
+			message: '#^Cannot call method toIso8601String\(\) on string\.$#'
+			identifier: method.nonObject
+			count: 2
+			path: app/Domain/Booking/Exceptions/ScheduleConflictException.php
+
+		-
+			message: '#^Method App\\Domain\\Booking\\Exceptions\\ScheduleConflictException\:\:__construct\(\) has parameter \$conflictDetails with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Domain/Booking/Exceptions/ScheduleConflictException.php
+
+		-
+			message: '#^Method App\\Domain\\Booking\\Exceptions\\ScheduleConflictException\:\:getConflictDetails\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Domain/Booking/Exceptions/ScheduleConflictException.php
+
+		-
+			message: '#^Property App\\Domain\\Booking\\Exceptions\\ScheduleConflictException\:\:\$conflictDetails type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Domain/Booking/Exceptions/ScheduleConflictException.php
+
+		-
+			message: '#^Using nullsafe method call on non\-nullable type string\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 4
+			path: app/Domain/Booking/Exceptions/ScheduleConflictException.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>name" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Domain/Booking/Exceptions/ScheduleConflictException.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$close_time\.$#'
+			identifier: property.notFound
+			count: 3
+			path: app/Domain/Booking/Services/RoomBookingService.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$open_time\.$#'
+			identifier: property.notFound
+			count: 3
+			path: app/Domain/Booking/Services/RoomBookingService.php
+
+		-
+			message: '#^Cannot call method toIso8601String\(\) on string\.$#'
+			identifier: method.nonObject
+			count: 9
+			path: app/Domain/Booking/Services/RoomBookingService.php
+
+		-
+			message: '#^Method App\\Domain\\Booking\\Services\\RoomBookingService\:\:searchAvailableRoomsRecurring\(\) should return Illuminate\\Database\\Eloquent\\Collection\<int, App\\Models\\Room\> but returns Illuminate\\Support\\Collection\<\(int\|string\), mixed\>\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Domain/Booking/Services/RoomBookingService.php
+
+		-
+			message: '#^Cannot call method toIso8601String\(\) on string\.$#'
+			identifier: method.nonObject
+			count: 3
+			path: app/Domain/Booking/UseCases/CancelBookingUseCase.php
+
+		-
+			message: '#^Cannot call method toIso8601String\(\) on string\.$#'
+			identifier: method.nonObject
+			count: 2
+			path: app/Domain/Booking/UseCases/CreateBookingUseCase.php
+
+		-
+			message: '#^Cannot call method toIso8601String\(\) on string\.$#'
+			identifier: method.nonObject
+			count: 4
+			path: app/Domain/Booking/UseCases/RescheduleBookingUseCase.php
+
+		-
+			message: '#^Method App\\Domain\\Booking\\UseCases\\SetOperatingHoursUseCase\:\:execute\(\) should return Illuminate\\Database\\Eloquent\\Collection\<int, App\\Models\\RoomOperatingHour\> but returns Illuminate\\Database\\Eloquent\\Collection\<int, Illuminate\\Database\\Eloquent\\Model\>\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Domain/Booking/UseCases/SetOperatingHoursUseCase.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$close_time\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Api/RoomController.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Api/RoomController.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$open_time\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Api/RoomController.php
+
+		-
+			message: '#^Cannot call method diffInMinutes\(\) on string\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Http/Controllers/Api/RoomController.php
+
+		-
+			message: '#^Cannot call method toIso8601String\(\) on string\.$#'
+			identifier: method.nonObject
+			count: 2
+			path: app/Http/Controllers/Api/RoomController.php
+
+		-
+			message: '#^Parameter \#1 \$callback of method Illuminate\\Database\\Eloquent\\Collection\<int,App\\Models\\Booking\>\:\:map\(\) contains unresolvable type\.$#'
+			identifier: argument.unresolvableType
+			count: 1
+			path: app/Http/Controllers/Api/RoomController.php
+
+		-
+			message: '#^Return type of call to method Illuminate\\Database\\Eloquent\\Collection\<int,App\\Models\\Booking\>\:\:map\(\) contains unresolvable type\.$#'
+			identifier: method.unresolvableReturnType
+			count: 1
+			path: app/Http/Controllers/Api/RoomController.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>name" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Http/Controllers/Api/RoomController.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Controllers/Web/BookingWebController.php
+
+		-
+			message: '#^Cannot call method format\(\) on string\.$#'
+			identifier: method.nonObject
+			count: 2
+			path: app/Http/Controllers/Web/BookingWebController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\Web\\BookingWebController\:\:getActiveUser\(\) should return App\\Models\\User but returns App\\Models\\User\|Illuminate\\Database\\Eloquent\\Collection\<int, App\\Models\\User\>\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Http/Controllers/Web/BookingWebController.php
+
+		-
+			message: '#^Parameter \#1 \$callback of method Illuminate\\Database\\Eloquent\\Collection\<int,App\\Models\\Booking\>\:\:map\(\) contains unresolvable type\.$#'
+			identifier: argument.unresolvableType
+			count: 1
+			path: app/Http/Controllers/Web/BookingWebController.php
+
+		-
+			message: '#^Return type of call to method Illuminate\\Database\\Eloquent\\Collection\<int,App\\Models\\Booking\>\:\:map\(\) contains unresolvable type\.$#'
+			identifier: method.unresolvableReturnType
+			count: 1
+			path: app/Http/Controllers/Web/BookingWebController.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>name" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Http/Controllers/Web/BookingWebController.php
+
+		-
+			message: '#^Method App\\Http\\Controllers\\Web\\MeetingRoomWebController\:\:getActiveUser\(\) should return App\\Models\\User but returns App\\Models\\User\|Illuminate\\Database\\Eloquent\\Collection\<int, App\\Models\\User\>\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Http/Controllers/Web/MeetingRoomWebController.php
+
+		-
+			message: '#^Array has 2 duplicate keys with value ''end_time'' \(''end_time'', ''end_time''\)\.$#'
+			identifier: array.duplicateKey
+			count: 1
+			path: app/Http/Requests/AvailableRoomsRequest.php
+
+		-
+			message: '#^Array has 2 duplicate keys with value ''min_capacity'' \(''min_capacity'', ''min_capacity''\)\.$#'
+			identifier: array.duplicateKey
+			count: 1
+			path: app/Http/Requests/AvailableRoomsRequest.php
+
+		-
+			message: '#^Array has 2 duplicate keys with value ''start_time'' \(''start_time'', ''start_time''\)\.$#'
+			identifier: array.duplicateKey
+			count: 1
+			path: app/Http/Requests/AvailableRoomsRequest.php
+
+		-
+			message: '#^Method App\\Http\\Requests\\AvailableRoomsRequest\:\:rules\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Http/Requests/AvailableRoomsRequest.php
+
+		-
+			message: '#^Method App\\Http\\Requests\\CancelBookingRequest\:\:rules\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Http/Requests/CancelBookingRequest.php
+
+		-
+			message: '#^Method App\\Http\\Requests\\RescheduleBookingRequest\:\:rules\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Http/Requests/RescheduleBookingRequest.php
+
+		-
+			message: '#^Method App\\Http\\Requests\\SetOperatingHoursRequest\:\:rules\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Http/Requests/SetOperatingHoursRequest.php
+
+		-
+			message: '#^Method App\\Http\\Requests\\StoreBookingRequest\:\:rules\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Http/Requests/StoreBookingRequest.php
+
+		-
+			message: '#^Method App\\Http\\Requests\\StoreRoomRequest\:\:rules\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Http/Requests/StoreRoomRequest.php
+
+		-
+			message: '#^Method App\\Http\\Requests\\UpdateRoomRequest\:\:rules\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Http/Requests/UpdateRoomRequest.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$email\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/BookingHistoryResource.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/BookingHistoryResource.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/BookingHistoryResource.php
+
+		-
+			message: '#^Cannot call method toIso8601String\(\) on string\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Http/Resources/BookingHistoryResource.php
+
+		-
+			message: '#^Method App\\Http\\Resources\\BookingHistoryResource\:\:toArray\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Http/Resources/BookingHistoryResource.php
+
+		-
+			message: '#^Using nullsafe method call on non\-nullable type string\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Http/Resources/BookingHistoryResource.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$buffer_minutes\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/BookingResource.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$capacity\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/BookingResource.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$email\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/BookingResource.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$id\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Http/Resources/BookingResource.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$location\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/BookingResource.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Http/Resources/BookingResource.php
+
+		-
+			message: '#^Cannot call method toIso8601String\(\) on string\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Http/Resources/BookingResource.php
+
+		-
+			message: '#^Method App\\Http\\Resources\\BookingResource\:\:toArray\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Http/Resources/BookingResource.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$close_time\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/RoomResource.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$day_of_week\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/RoomResource.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$open_time\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Http/Resources/RoomResource.php
+
+		-
+			message: '#^Method App\\Http\\Resources\\RoomResource\:\:toArray\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: app/Http/Resources/RoomResource.php
+
+		-
+			message: '#^Parameter \#1 \$callback of method Illuminate\\Database\\Eloquent\\Collection\<int,Illuminate\\Database\\Eloquent\\Model\>\:\:map\(\) contains unresolvable type\.$#'
+			identifier: argument.unresolvableType
+			count: 1
+			path: app/Http/Resources/RoomResource.php
+
+		-
+			message: '#^Return type of call to method Illuminate\\Database\\Eloquent\\Collection\<int,Illuminate\\Database\\Eloquent\\Model\>\:\:map\(\) contains unresolvable type\.$#'
+			identifier: method.unresolvableReturnType
+			count: 1
+			path: app/Http/Resources/RoomResource.php
+
+		-
+			message: '#^Class App\\Models\\Booking uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Booking.php
+
+		-
+			message: '#^Method App\\Models\\Booking\:\:histories\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Booking.php
+
+		-
+			message: '#^Method App\\Models\\Booking\:\:recurrenceRule\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Booking.php
+
+		-
+			message: '#^Method App\\Models\\Booking\:\:room\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Booking.php
+
+		-
+			message: '#^Method App\\Models\\Booking\:\:scopeConfirmed\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Booking.php
+
+		-
+			message: '#^Method App\\Models\\Booking\:\:scopeConfirmed\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Booking.php
+
+		-
+			message: '#^Method App\\Models\\Booking\:\:scopeDateRange\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Booking.php
+
+		-
+			message: '#^Method App\\Models\\Booking\:\:scopeDateRange\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Booking.php
+
+		-
+			message: '#^Method App\\Models\\Booking\:\:scopeForRoom\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Booking.php
+
+		-
+			message: '#^Method App\\Models\\Booking\:\:scopeForRoom\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Booking.php
+
+		-
+			message: '#^Method App\\Models\\Booking\:\:user\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Booking.php
+
+		-
+			message: '#^Class App\\Models\\BookingHistory uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/BookingHistory.php
+
+		-
+			message: '#^Method App\\Models\\BookingHistory\:\:booking\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/BookingHistory.php
+
+		-
+			message: '#^Method App\\Models\\BookingHistory\:\:user\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/BookingHistory.php
+
+		-
+			message: '#^Class App\\Models\\RecurrenceRule uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/RecurrenceRule.php
+
+		-
+			message: '#^Method App\\Models\\RecurrenceRule\:\:bookings\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/RecurrenceRule.php
+
+		-
+			message: '#^Class App\\Models\\Room uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Room.php
+
+		-
+			message: '#^Method App\\Models\\Room\:\:bookings\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Room.php
+
+		-
+			message: '#^Method App\\Models\\Room\:\:operatingHours\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\HasMany does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Room.php
+
+		-
+			message: '#^Method App\\Models\\Room\:\:scopeActive\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Room.php
+
+		-
+			message: '#^Method App\\Models\\Room\:\:scopeActive\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Room.php
+
+		-
+			message: '#^Method App\\Models\\Room\:\:scopeMinCapacity\(\) has parameter \$query with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Room.php
+
+		-
+			message: '#^Method App\\Models\\Room\:\:scopeMinCapacity\(\) return type with generic class Illuminate\\Database\\Eloquent\\Builder does not specify its types\: TModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/Room.php
+
+		-
+			message: '#^Class App\\Models\\RoomOperatingHour uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types\: TFactory$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/RoomOperatingHour.php
+
+		-
+			message: '#^Method App\\Models\\RoomOperatingHour\:\:room\(\) return type with generic class Illuminate\\Database\\Eloquent\\Relations\\BelongsTo does not specify its types\: TRelatedModel, TDeclaringModel$#'
+			identifier: missingType.generics
+			count: 1
+			path: app/Models/RoomOperatingHour.php
+
+		-
+			message: '#^Binary operation "\." between ''Room '' and array\|string results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: database/factories/RoomFactory.php
